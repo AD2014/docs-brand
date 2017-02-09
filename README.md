@@ -5,11 +5,17 @@ Source code for http://docs.brand.let.life
 
 ### Contribute
 
-Clone the repo then:
+Clone the repo and initialize
 
-```
+```shell
+git clone git@github.com:AD2014/docs-brand.git
 bundle install          ## Install ruby's gems
-bundle exec middleman   ## Serve the docs on localhost
+```
+
+Then serve the pages on localhost
+
+```shell
+bundle exec middleman
 ```
 
 `middleman` will rebuild on change so you save changes you just need to refresh your browser.
@@ -18,7 +24,7 @@ bundle exec middleman   ## Serve the docs on localhost
 
 Only if you have a valid AWS user (and the awscli package installed)
 
-```bash
+```shell
 bash ./publish.sh
 ```
 

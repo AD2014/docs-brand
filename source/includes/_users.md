@@ -1,4 +1,4 @@
-# Brand BO - Users
+# Users
 
 A Brand can have many users associated.
 
