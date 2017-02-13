@@ -92,7 +92,7 @@ Create a new product
 Parameter | Type | Required | Description
 --------- | ---- | -------- | -----------
 vendorId  |  ObjectId |  yes |  the id of the vendor
-product   |Object  | yes | the product object
+product   |Object  | yes | the [product object](http://docs.brand.let.life/)
 withSample|boolean | no | flag for pushing sample notes in the product (default: false)
 per_page|number|no|The maximum number of records in the data array. If omitted it use config.pagination.per_page
 
