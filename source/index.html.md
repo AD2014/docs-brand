@@ -1,5 +1,5 @@
 ---
-title: LetLife Brand API Reference
+title: Brand API Reference - LetLife
 
 language_tabs:
   - shell
@@ -12,6 +12,7 @@ includes:
 
   - users
   - products
+  - products_groups
   - notes
   - lifecodes
   - notifications
